@@ -34,7 +34,10 @@ body {
 .auto-nav {
   color: var(--primary-text-color);
 }
-
+/* header */
+.logo {
+  color: #4d5ae5;
+}
 /* HERO */
 
 .hero {
@@ -46,6 +49,7 @@ body {
 /* Section */
 .section {
   color: var(--primary-text-color);
+  background: #e5e5e5;
 }
 .section-title {
   color: var(--primary-text-color);
@@ -59,8 +63,23 @@ body {
 .list-benefit-text {
   color: var(--title-text-color);
 }
+.list-team {
+}
+.list-team-name {
+  color: var(--primary-text-color);
+}
+.list-team-prof {
+  color: var(--title-text-color);
+}
 
+/* Footer */
+.appeal {
+}
+.appeal-text {
+  color: #e7e9fc;
+}
 /* Button */
+
 .button {
   color: var(--primary-text-color);
   background: var(--primary-white-color);
