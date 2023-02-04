@@ -15,6 +15,7 @@
   --title-text-color: #434455;
   --accent: #4d5ae5;
   --primary-white-color: #ffffff;
+  --primery-btn-color: #f4f4fd;
 }
 
 body {
@@ -37,6 +38,15 @@ body {
 /* header */
 .logo {
   color: #4d5ae5;
+}
+.logo-second {
+  color: #f4f4fd;
+}
+.logo-st {
+  color: var(--primary-text-color);
+}
+.info {
+  color: var(--primary-text-color);
 }
 /* HERO */
 
@@ -74,6 +84,7 @@ body {
 
 /* Footer */
 .appeal {
+  background: var(--primary-text-color);
 }
 .appeal-text {
   color: #e7e9fc;
@@ -90,8 +101,17 @@ body {
 }
 .button.secondary {
   color: var(--accent);
-  background: var(--primary-white-color);
+  background: var(--primery-btn-color);
 }
+
+/* portfolio */
+.example-item {
+  color: var(--primary-text-color);
+}
+.example-title {
+  color: var(--title-text-color);
+}
+
 /* скрытый заголовок */
 .visually-hidden {
   position: absolute;
