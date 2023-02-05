@@ -33,7 +33,7 @@ address {
   text-decoration: none;
 }
 
-/* Site Nav */
+/* -----------------Site Nav----------- */
 .site-nav .link {
   font-weight: 500;
   font-size: 16px;
@@ -46,9 +46,9 @@ address {
   line-height: 1.5;
   color: var(--primary-text-color);
 }
-/* header */
+/* -----------------header---------------- */
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -57,7 +57,7 @@ address {
 }
 
 .logo-st {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -78,7 +78,7 @@ address {
   line-height: 1.07;
   color: var(--primary-white-color);
 }
-/* Section */
+/* -------------Section---------------- */
 .section {
   color: var(--primary-text-color);
   background: #e5e5e5;
@@ -119,12 +119,12 @@ address {
   color: var(--title-text-color);
 }
 
-/* Footer */
+/*----------------- Footer------------ */
 .appeal {
   background: var(--primary-text-color);
 }
 .logo-second {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -137,27 +137,59 @@ address {
   line-height: 1.5;
   color: #e7e9fc;
 }
-
-/* Button */
-
-.button {
-  color: var(--primary-text-color);
+/*------------Button Hero ---------------*/
+.button-hero {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--primery-btn-color);
+  background: var(--accent);
+  cursor: pointer;
+}
+.button-hero:hover,
+.button-he:focus {
+  color: var(--accent);
   background: var(--primary-white-color);
 }
-.button.primary {
-  background: var(--accent);
-  color: var(--primary-white-color);
+/* -------------Button---------------- */
+.button {
+ font-family: 'Roboto', sans-serif:
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: var(--accent);
+background: var(--primary-white-color);
+
 }
-.button.secondary {
-  color: var(--accent);
-  background: var(--primery-btn-color);
+.button:hover,
+.button:focus {
+  color: var(--primary-white-color);
+  background: var(--accent);
 }
 
 /* portfolio */
 .example-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
 .example-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
 
