@@ -32,7 +32,6 @@ address {
 .link {
   text-decoration: none;
 }
-
 /* -----------------Site Nav----------- */
 .site-nav .link {
   font-weight: 500;
@@ -40,8 +39,11 @@ address {
   line-height: 1.5;
   color: var(--primary-text-color);
 }
+.site-nav:hover,
+.site-nav:focus {
+  color: var(--accent);
+}
 .auto-nav {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: var(--primary-text-color);
@@ -68,12 +70,15 @@ address {
   text-decoration: none;
   color: var(--primary-text-color);
 }
+.info:hover,
+.info:focus {
+  color: var(--accent);
+}
 /* HERO */
 .hero {
   background: #2e2f42;
 }
 .hero-title {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   color: var(--primary-white-color);
@@ -99,7 +104,6 @@ address {
   color: var(--primary-text-color);
 }
 .list-benefit-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: var(--title-text-color);
@@ -113,7 +117,6 @@ address {
   color: var(--primary-text-color);
 }
 .list-team-prof {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: var(--title-text-color);
@@ -126,13 +129,11 @@ address {
 .logo-second {
   font-family: "Raleway", sans-serif;
   font-style: normal;
-  font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
   color: #f4f4fd;
 }
 .appeal-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: #e7e9fc;
@@ -152,32 +153,31 @@ address {
   cursor: pointer;
 }
 .button-hero:hover,
-.button-he:focus {
+.button-hero:focus {
   color: var(--accent);
   background: var(--primary-white-color);
 }
 /* -------------Button---------------- */
 .button {
- font-family: 'Roboto', sans-serif:
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.04em;
-color: var(--accent);
-background: var(--primary-white-color);
-
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+  background: var(--primary-white-color);
+  cursor: pointer;
 }
 .button:hover,
 .button:focus {
   color: var(--primary-white-color);
   background: var(--accent);
 }
-
-/* portfolio */
+/* -------------------portfolio file--------------------*/
 .example-item {
   font-weight: 500;
   font-size: 20px;
@@ -186,7 +186,6 @@ background: var(--primary-white-color);
   color: var(--primary-text-color);
 }
 .example-title {
-  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
