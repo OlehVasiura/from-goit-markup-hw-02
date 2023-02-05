@@ -23,37 +23,59 @@ body {
   background: #e5e5e5;
   color: #2e2f42;
 }
-
+address {
+  font-style: normal;
+}
 .list {
   list-style: none;
+}
+.link {
+  text-decoration: none;
 }
 
 /* Site Nav */
 .site-nav .link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
   color: var(--primary-text-color);
 }
 .auto-nav {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
   color: var(--primary-text-color);
 }
 /* header */
 .logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33px;
   color: #4d5ae5;
 }
-.logo-second {
-  color: #f4f4fd;
-}
+
 .logo-st {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
   color: var(--primary-text-color);
 }
 .info {
+  text-decoration: none;
   color: var(--primary-text-color);
 }
 /* HERO */
-
 .hero {
   background: #2e2f42;
 }
 .hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
   color: var(--primary-white-color);
 }
 /* Section */
@@ -62,23 +84,38 @@ body {
   background: #e5e5e5;
 }
 .section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
   color: var(--primary-text-color);
 }
 .list-benefit {
   color: var(--primary-text-color);
 }
 .list-benefit-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   color: var(--primary-text-color);
 }
 .list-benefit-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
   color: var(--title-text-color);
 }
 .list-team {
 }
 .list-team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   color: var(--primary-text-color);
 }
 .list-team-prof {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
   color: var(--title-text-color);
 }
 
@@ -86,9 +123,21 @@ body {
 .appeal {
   background: var(--primary-text-color);
 }
+.logo-second {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  color: #f4f4fd;
+}
 .appeal-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
   color: #e7e9fc;
 }
+
 /* Button */
 
 .button {
