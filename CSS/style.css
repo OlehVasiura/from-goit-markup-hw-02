@@ -20,8 +20,8 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background: #e5e5e5;
-  color: #2e2f42;
+  background: var(--primary-white-color);
+  color: var(--primary-text-color);
 }
 address {
   font-style: normal;
@@ -51,30 +51,40 @@ address {
 /* -----------------header---------------- */
 .logo {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 800;
   font-size: 18px;
   line-height: 1.33px;
-  color: #4d5ae5;
+  color: var(--accent);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .logo-st {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
   color: var(--primary-text-color);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .info {
   text-decoration: none;
   color: var(--primary-text-color);
+  letter-spacing: 0.02em;
 }
 .info:hover,
 .info:focus {
   color: var(--accent);
 }
-/* HERO */
+.info-tel {
+  text-decoration: none;
+  color: var(--title-text-color);
+  letter-spacing: 0.02em;
+}
+.info-tel:hover,
+.info-tel:focus {
+  color: var(--accent);
+}
+/* ------------HERO---------------------- */
 .hero {
   background: #2e2f42;
 }
@@ -82,17 +92,22 @@ address {
   font-size: 56px;
   line-height: 1.07;
   color: var(--primary-white-color);
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 /* -------------Section---------------- */
 .section {
   color: var(--primary-text-color);
-  background: #e5e5e5;
+  background: var(--primary-white-color);
 }
 .section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   color: var(--primary-text-color);
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 .list-benefit {
   color: var(--primary-text-color);
@@ -102,11 +117,16 @@ address {
   font-size: 20px;
   line-height: 1.2;
   color: var(--primary-text-color);
+  letter-spacing: 0.02em;
 }
 .list-benefit-text {
   font-size: 16px;
   line-height: 1.5;
   color: var(--title-text-color);
+  letter-spacing: 0.02em;
+}
+.section-team {
+  background: var(--primery-btn-color);
 }
 .list-team {
 }
@@ -115,11 +135,15 @@ address {
   font-size: 20px;
   line-height: 1.2;
   color: var(--primary-text-color);
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 .list-team-prof {
   font-size: 16px;
   line-height: 1.5;
   color: var(--title-text-color);
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 /*----------------- Footer------------ */
@@ -128,10 +152,11 @@ address {
 }
 .logo-second {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-size: 18px;
   line-height: 1.16;
-  color: #f4f4fd;
+  color: var(--primery-btn-color);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .appeal-text {
   font-size: 16px;
@@ -141,35 +166,32 @@ address {
 /*------------Button Hero ---------------*/
 .button-hero {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.04em;
-  color: var(--primery-btn-color);
-  background: var(--accent);
-  cursor: pointer;
-}
-.button-hero:hover,
-.button-hero:focus {
-  color: var(--accent);
-  background: var(--primary-white-color);
-}
-/* -------------Button---------------- */
-.button {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   display: flex;
   align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--primery-btn-color);
+  background: #404bbf;
+  cursor: pointer;
+}
+.button-hero:hover,
+.button-hero:focus {
+  color: #404bbf;
+  background: var(--primary-white-color);
+}
+/* -------------Button---------------- */
+.button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
   color: var(--accent);
-  background: var(--primary-white-color);
+  background: var(--primery-btn-color);
   cursor: pointer;
 }
 .button:hover,
@@ -187,7 +209,7 @@ address {
 }
 .example-title {
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
