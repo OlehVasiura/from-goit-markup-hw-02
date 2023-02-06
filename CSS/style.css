@@ -199,7 +199,7 @@ address {
   color: var(--primary-white-color);
   background: var(--accent);
 }
-/* -------------------portfolio file--------------------*/
+/* ----------------portfolio file------------------*/
 .example-item {
   font-weight: 500;
   font-size: 20px;
@@ -214,7 +214,7 @@ address {
   color: var(--title-text-color);
 }
 
-/* скрытый заголовок */
+/* --------------скрытый заголовок---------------- */
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
