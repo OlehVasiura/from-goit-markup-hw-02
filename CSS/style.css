@@ -135,15 +135,17 @@ address {
   font-size: 20px;
   line-height: 1.2;
   color: var(--primary-text-color);
-  text-align: center;
+
   letter-spacing: 0.02em;
+  background: var(--primary-white-color);
 }
 .list-team-prof {
   font-size: 16px;
   line-height: 1.5;
   color: var(--title-text-color);
-  text-align: center;
+
   letter-spacing: 0.02em;
+  background: var(--primary-white-color);
 }
 
 /*----------------- Footer------------ */
